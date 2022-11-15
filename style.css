@@ -1,0 +1,100 @@
+body{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin:0px;
+    padding: 0px;
+    background-color: #6fd7e9;
+}
+:root{
+    --pColor:#1a6988;
+}
+nav{
+    background-color:var(--pColor);
+    height: 4rem;
+}
+h1{
+    text-align: center;
+    color: rgb(6, 43, 68);
+}
+.nav-list{
+    text-decoration: none;
+    border: none;
+    list-style: none;
+    display: flex;
+    justify-content: left;
+    align-content: space-around;
+    margin-block-start: 0em;
+    padding: 1rem;
+}
+.nav-item{
+    padding: 2rem;
+    color: #f0f5f8;
+    font-weight: 600;
+    text-decoration: none;
+
+}
+.active{
+    text-decoration: underline;
+    color: #eff1f4;
+}
+/*.inputs{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    
+    margin: 0rem auto;*/
+}
+/*.angle-input{
+    width: 25rem;
+    margin: 0.5rem;*/
+
+}
+#submit-btn{
+    align-items: center;
+    text-align: center;
+    margin: 1rem;
+    width: 30vw;
+    color: #b40637;
+    background-color:var(--pColor);
+    border: none;
+    height: 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#output{
+    text-align: center;
+    height: 5rem;
+    font-size: larger;
+    font-weight: 900;
+    color: rgb(11, 62, 98);
+    padding:2rem;
+
+}
+/* for Quizz file css */
+.question-container{
+    background-color:#13699e;
+    padding: 2rem;
+    width:45rem;
+    margin: 1rem;
+    border-radius: 15px;
+}
+.offwhite{
+    background-color: #f472b6;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 2rem 2rem;
+    margin-top: 4rem;
+    justify-content: center;
+    background-color: rgb(17, 100, 125);
+    width: 30vw;
+    height: 12vw;
+    border-radius: 20vw;
+}
